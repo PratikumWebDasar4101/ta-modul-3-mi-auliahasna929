@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TA</title>
+</head>
+<body>
+	<table>
+	<form action="TA3.php" method="post" enctype="multipart/form-data">
+		<tr>
+				<td>Nama User </td>
+				<td>:</td>
+				<td><input type="text" name="namauser" required=""> </td>
+		</tr>
+		<tr>
+				<td>Nim</td>
+				<td>:</td>
+				<td><input type="text" name="nim" required=""></td>
+				<td>Fakultas</td>
+				<td> 
+				<select name="Fakultas" id="dropdown">
+							<option>FIT</option>
+							<option>FIK</option>
+							<option>FRI</option>
+							<option>FIF</option>
+							<option>FTE</option>
+							<option>FKB</option>
+							<option>FEB</option>
+						</select>
+					 </td>
+					<tr>
+						<td> Jenis Kelammin </td>
+						<td>:</td>
+						<td>
+							<input type="radio" name="JK" value="Laki-Laki"> Laki-Laki
+							<input type="radio" name="JK" value="Perempuan"> Perempuan
+						</td>
+					</tr>
+					<tr>
+						<td>Foto</td>
+						<td>:<td>
+							<td>
+								<input name="foto" type="file" required />
+								<input type="submit"  value="upload"/>
+							</td>
+						</tr>
+					
+				</form>
+				</table>
+</body>
+</html>
